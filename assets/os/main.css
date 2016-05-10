@@ -53,7 +53,7 @@ div[role='main'] #top header {
   list-style: none; /* supprime les puces de liste */
   padding: 4px; /* on fait un peu de place autour des liens */
   margin: 0; /* on annule les marges */
-  background: #F2F2F2;
+  background: #2a2a2a;
 }
 /* styles des liens et éléments de liste */
 .vm-item,
@@ -73,13 +73,14 @@ div[role='main'] #top header {
   -webkit-transition: all .3s; /* Chrome/Safari */
   -moz-transition: all .3s; /* Firefox (plus trop nécessaire) */
   transition: all .3s; /* syntaxe officielle */
+  text-align:center;
 }
  
 /* styles changeants au survol et focus */
 .vm-item a:hover,
 .vm-item a:focus {
-  background: #1ABC9C;
-  color: #FFF;
+  background: #f0c77a;
+  color: #000;
   padding-left: 30px; /* décalage du contenu de 10px vers la droite (30-20 = 10) */
 }
 
