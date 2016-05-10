@@ -52,10 +52,12 @@ div[role='main'] #top header {
 	margin-left:100px;
 	padding-bottom:40px;
 	padding-top:15px;
+	position:absolute;
 }
 
 .pure-button{
-	padding:1.5em 2em;
+	padding:0.5em 1.5em;
+	font-size:150%;
 }
 
 .vertical-menu ul{
