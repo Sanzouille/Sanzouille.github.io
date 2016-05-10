@@ -49,12 +49,12 @@ div[role='main'] #top header {
 }
 
 .vertical-menu{
-  width: 10%;
+  width: 15%;
   list-style: none; /* supprime les puces de liste */
   padding: 0px; /* on fait un peu de place autour des liens */
-  margin: 2%; 
+  margin: 0; 
   background: #2a2a2a;
-  padding-left:0px;
+  position:absolute;
 }
 
 .vm-item,
@@ -64,7 +64,6 @@ div[role='main'] #top header {
  
 .vm-item a {
   margin: 1px 0; /* espace les liens d'1 px */
-  padding: 8px 20px; /* marges internes pour aérer */ 
   color: #FFF;
   background: #2a2a2a;
   text-decoration: none; /* on vire le soulignement */
