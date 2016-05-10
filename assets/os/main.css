@@ -29,7 +29,6 @@ div[role='main'] {
 background:linear-gradient(rgba(10,20,20,0.8),rgba(30,50,50,0.6))*/
 }  
 
-
 #top article {
   padding-top:3.8em;
   padding-left:1.6em;
@@ -48,6 +47,13 @@ div[role='main'] #top header {
   max-width:300px;
 }
 
+.play{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+	
+
 .vertical-menu ul{
 	padding-left:0px;
 	margin:0 0.25em;
@@ -55,8 +61,8 @@ div[role='main'] #top header {
 
 .vertical-menu{
   width: 300px;
-  list-style: none; /* supprime les puces de liste */
-  padding: 0px; /* on fait un peu de place autour des liens */
+  list-style: none; 
+  padding: 0px; 
   background: #2a2a2a;
   position:absolute;
   margin-left: 2em;
@@ -68,18 +74,17 @@ div[role='main'] #top header {
 }
  
 .vm-item a {
-  margin: 1%; /* espace les liens d'1 px */
-  padding: 8px 20px; /* marges internes pour aérer */ 
+  margin: 1%; 
+  padding: 8px 20px; 
   color: #FFF;
   background: #2a2a2a;
-  text-decoration: none; /* on vire le soulignement */
-  -webkit-transition: all .3s; /* Chrome/Safari */
-  -moz-transition: all .3s; /* Firefox (plus trop nécessaire) */
-  transition: all .3s; /* syntaxe officielle */
+  text-decoration: none; 
+  -webkit-transition: all .3s; 
+  -moz-transition: all .3s; 
+  transition: all .3s; 
   text-align:center;
 }
  
-/* styles changeants au survol et focus */
 .vm-item a:hover,
 .vm-item a:focus {
   background: #f0c77a;
