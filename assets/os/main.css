@@ -47,7 +47,43 @@ div[role='main'] #top header {
 #top header img {
   max-width:300px;
 }
-.menu {
+
+.vertical-menu{
+  width: 250px;
+  list-style: none; /* supprime les puces de liste */
+  padding: 4px; /* on fait un peu de place autour des liens */
+  margin: 0; /* on annule les marges */
+  background: #F2F2F2;
+}
+/* styles des liens et éléments de liste */
+.vm-item,
+.vm-item a {
+  /* les liens et item deviennent des blocs */
+  /* suffit théoriquement à virer les puces de liste */
+  display: block;
+}
+ 
+/* styles des liens */
+.vm-item a {
+  margin: 1px 0; /* espace les liens d'1 px */
+  padding: 8px 20px; /* marges internes pour aérer */ 
+  color: #666;
+  background: #FFF;
+  text-decoration: none; /* on vire le soulignement */
+  -webkit-transition: all .3s; /* Chrome/Safari */
+  -moz-transition: all .3s; /* Firefox (plus trop nécessaire) */
+  transition: all .3s; /* syntaxe officielle */
+}
+ 
+/* styles changeants au survol et focus */
+.vm-item a:hover,
+.vm-item a:focus {
+  background: #1ABC9C;
+  color: #FFF;
+  padding-left: 30px; /* décalage du contenu de 10px vers la droite (30-20 = 10) */
+}
+
+/* .menu {
   list-style-type: none;
   display:flex;
   flex-flow:row wrap;
@@ -62,7 +98,8 @@ div[role='main'] #top header {
   padding:0;
   display:block;
   margin-bottom:0.6em;
-}
+} */
+
 div[role='main'] header h1 {
   margin-bottom: 0;
 }
