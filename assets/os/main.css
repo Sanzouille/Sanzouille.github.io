@@ -49,10 +49,14 @@ div[role='main'] #top header {
 
 .play{
 	list-style-type: none;
-	margin:0;
-	padding:0;
+	margin-left:100px;
+	padding-bottom:40px;
+	padding-top:15px;
 }
-	
+
+.pure-button{
+	padding:1.5em 2em;
+}
 
 .vertical-menu ul{
 	padding-left:0px;
