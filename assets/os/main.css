@@ -23,11 +23,11 @@ div[role='main'] {
   padding-bottom: 1em;
 }
 
-/* #top {
+ #top {
   display:flex;
-  #background:rgba(10,20,20,0.6);
-  background:linear-gradient(rgba(10,20,20,0.8),rgba(30,50,50,0.6))
-}  */
+/*background:rgba(10,20,20,0.6);
+background:linear-gradient(rgba(10,20,20,0.8),rgba(30,50,50,0.6))*/
+}  
 
 
 #top article {
