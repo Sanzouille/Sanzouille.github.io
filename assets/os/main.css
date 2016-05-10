@@ -59,7 +59,7 @@ div[role='main'] #top header {
   padding: 0px; /* on fait un peu de place autour des liens */
   background: #2a2a2a;
   position:absolute;
-  padding-left: 2em;
+  margin-left: 2em;
 }
 
 .vm-item,
