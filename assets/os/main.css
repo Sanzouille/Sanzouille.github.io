@@ -50,8 +50,7 @@ div[role='main'] #top header {
 .play{
 	/*list-style-type: none;*/
 	margin-left:55px;
-	margin-bottom:25px;
-	padding-bottom:40px;
+	padding-bottom:0px;
 	padding-top:15px;
 	float:left;
 }
@@ -63,7 +62,6 @@ div[role='main'] #top header {
 
 .ts{
 	float:left;
-	margin-bottom:25px;
 }
 
 .vertical-menu ul{
@@ -77,6 +75,7 @@ div[role='main'] #top header {
   padding: 0px; 
   background: #2a2a2a;
   margin-left: 2em;
+  clear:both;
 }
 
 .vm-item,
