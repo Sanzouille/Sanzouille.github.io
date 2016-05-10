@@ -8,7 +8,7 @@ body {
   overflow-y: scroll;
 }
 div[role='main'] {
-  width: 94em;
+  width: 104em;
   margin-left: auto;
   margin-right: auto;
   background-image: url('https://cloud.githubusercontent.com/assets/2464813/12016400/3d163802-ad42-11e5-829b-57dc96397d02.png');
