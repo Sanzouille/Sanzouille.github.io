@@ -103,6 +103,10 @@ div[role='main'] #top header {
   padding-left:5%;
 }
 
+.block1{
+	float:right;
+}
+
 /* .menu {
   list-style-type: none;
   display:flex;
@@ -223,6 +227,7 @@ a:hover {
 #live-events,
 article#videos,
 #bulletin,
+#block1,
 #settings {
   margin: 2em;
   margin-left: 4em;
